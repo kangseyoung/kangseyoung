@@ -1,27 +1,27 @@
 # kangseyoung
 
-VFX pipeline, Maya/Python tool development, Linux/Shell scripting, and production-oriented automation을 중심으로 학습하고 프로젝트를 정리하는 GitHub 프로필입니다.
+VFX 파이프라인, Maya/Python 툴 개발, Linux/Shell scripting, 프로덕션 자동화를 중심으로 학습하고 프로젝트를 정리하는 GitHub 프로필입니다.
 
-## Focus Areas
+## 관심 분야
 
-- Maya Python scripting and rigging/tool automation
-- VFX pipeline workflow design
-- Deadline render farm and DCC submission workflow
-- PySide-based desktop tool development
-- Linux and Shell script automation
-- Portfolio documentation and public-safe project cleanup
+- Maya Python 스크립팅 및 리깅/툴 자동화
+- VFX 파이프라인 워크플로 설계
+- Deadline 렌더팜 및 DCC 제출 워크플로
+- PySide 기반 데스크톱 툴 개발
+- Linux 및 Shell script 자동화
+- 포트폴리오 문서화와 공개 저장소 정리
 
-## AI-assisted Development Workflow
+## AI 활용 개발 워크플로
 
-I use AI as a development assistant integrated into my workflow, not as a substitute for my own design and implementation decisions. I define the requirements, decide the project direction, review the generated suggestions, and modify the final result to fit the actual production or study context.
+AI를 구현을 대신하는 도구가 아니라, 개발 과정에 통합된 보조 도구로 활용합니다. 프로젝트 요구사항과 방향은 직접 정의하고, AI가 제안한 구조나 코드는 실제 작업 맥락에 맞는지 검토한 뒤 수정해서 반영합니다.
 
-In my projects, AI is mainly used for:
+프로젝트에서는 주로 다음 작업에 AI를 활용합니다.
 
-- Organizing project structure and comparing implementation approaches
-- Assisting with repetitive Python, Maya, and Shell script code
-- Analyzing error logs and narrowing down debugging directions
-- Drafting README files, troubleshooting notes, and validation checklists
-- Reviewing refactoring ideas before applying them to the codebase
-- Clarifying automation strategies for VFX pipeline, Maya, Python, and Linux-based workflows
+- 프로젝트 구조 설계 아이디어 정리 및 구현 방식 비교
+- Python, Maya, Shell script의 반복 코드 작성 보조
+- 오류 로그 분석과 디버깅 방향 탐색
+- README, 트러블슈팅 문서, 검증 체크리스트 초안 작성
+- 리팩토링 아이디어 검토
+- VFX 파이프라인, Maya, Python, Linux 기반 자동화 방향 정리
 
-This workflow helps me iterate faster while keeping the final architecture, code review, and documentation decisions under my control.
+이 방식은 작업 속도를 높이면서도 최종 구조 설계, 코드 검토, 문서화 결정은 직접 책임지는 개발 흐름을 유지하기 위한 것입니다.
