@@ -1,5 +1,14 @@
 # kangseyoung
 
+## Motto
+
+**The CS boom will come again — for engineers who know how to work with AI.**
+
+I believe AI does not remove the need for computer science fundamentals.  
+Even in the age of vibe coding, engineers still need to understand the technologies, systems, and trade-offs behind the code.
+
+My goal is to become an engineer who can use AI effectively while still understanding the infrastructure, automation, and systems that make software work.
+
 VFX 파이프라인, Maya/Python 툴 개발, Linux/Shell scripting, 프로덕션 자동화를 중심으로 학습하고 프로젝트를 정리하는 GitHub 프로필입니다.
 
 ## 관심 분야
