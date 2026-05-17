@@ -1,183 +1,82 @@
 # kangseyoung
 
-VFX 파이프라인 툴을 만들며 코딩을 시작했고  
-반복 작업을 줄이는 자동화 도구와 여러 시스템을 연결하는 개발에 관심을 가져왔습니다
-
-현재는 Python 기반 자동화, Linux 환경, API 연동, 데이터 처리에 관심이 있으며  
-최근에는 LLM API와 프롬프트 설계를 활용해 개발 과정과 문서 정리 과정을 더 효율적으로 만드는 방법을 공부하고 있습니다
-
-아직 AI를 깊게 다룬다고 말하기보다는  
-실제로 써보며 구조를 이해하고 서비스로 연결하는 경험을 쌓아가고 있습니다
-
-현장의 불편을 개선하는 도구  
-반복 작업을 줄이는 자동화  
-그리고 여러 시스템을 연결해 실제로 동작하는 서비스를 만드는 것에 관심이 있습니다
-
----
+VFX 파이프라인과 Python 자동화를 중심으로 프로젝트를 정리하고 있습니다.  
+반복되는 파일 처리, 렌더 제출, 데이터 연결, 문서화 흐름을 줄이는 데 관심이 있습니다. 최근에는 기존 자동화 작업에 LLM API를 보조 도구로 연결하는 방식을 실험하고 있습니다.
 
 ## 관심 분야
 
-- Python 기반 자동화 도구 개발
-- API 연동 및 데이터 처리
-- JSON / CSV / PDF 데이터 가공
-- Linux / Shell script 기반 개발 환경
-- 시스템 인프라와 운영 자동화
-- LLM API 활용
-- 프롬프트 설계와 응답 개선
-- AI-assisted developer workflow
-- Web UI 개발
-
----
+- VFX pipeline automation
+- Python scripting / CLI tools
+- API 연동과 데이터 처리
+- PySide 기반 데스크톱 툴
+- Deadline, Maya, Blender 작업 흐름
+- LLM API를 활용한 문서화와 반복 작업 보조
 
 ## Tech Stack
 
-### Language
-- Python
-- JavaScript / TypeScript
-- Shell Script
-- C++
-- Verilog
-
-### Tools & Frameworks
-- Next.js
-- React
-- Supabase
-- PySide
-- Git / GitHub
-- Linux
-- Docker
-
-### Interested in
-- LLM API
-- Prompt Engineering
-- Agent Workflow
-- Data Processing
-- Fine-tuning basics
-- Model Evaluation
-
----
+- **Language:** Python, Shell script, JavaScript 기초
+- **VFX / DCC:** Maya, Arnold, Blender, Nuke 기초, AWS Thinkbox Deadline
+- **UI / App:** PySide6 / PySide2, Qt Designer, Next.js, React, TypeScript
+- **Data / API:** MongoDB, ShotGrid API, Google Sheets API, Supabase 클라이언트 패턴, OpenAI API
+- **Environment:** Linux, Windows, Git / GitHub, NAS shared path
 
 ## 주요 프로젝트
 
-### Lecture Companion Agent
+### [Lecture Companion Agent](https://github.com/kangseyoung/Lecture-Companion-Agent)
 
-강의 PDF를 기반으로 슬라이드별 해설 Markdown과 주석형 PDF를 만드는 학습 보조 자동화 프로젝트입니다
+영어 강의 PDF를 페이지별 한국어 학습 노트와 주석 PDF로 변환하는 로컬 CLI 도구입니다.  
+PDF 텍스트 추출, 페이지 이미지 생성, Markdown 중간 산출물, 최종 PDF 렌더링 흐름을 다룹니다.  
+OpenAI API는 학습 노트 생성을 돕는 선택 기능이며, API 키 없이도 렌더링 흐름을 테스트할 수 있습니다.
 
-처음에는 직접 작성한 Markdown 설명을 PDF로 렌더링하는 구조로 시작했고  
-현재는 PDF 텍스트 추출과 LLM API를 연결해 더 자동화된 해설 생성 흐름으로 확장하는 것을 목표로 하고 있습니다
+**주요 작업**
 
-주요 내용
+- Python CLI로 PDF 입력, 페이지 처리, 출력 폴더 구조 구성
+- Markdown 노트 기반 PDF 렌더링 흐름 정리
+- 참고자료 매칭은 키워드 기반으로 구현, 벡터 DB RAG는 미구현으로 명시
 
-- PDF 텍스트 추출 및 페이지 단위 처리
-- 슬라이드별 Markdown 해설 구조 설계
-- Markdown 기반 주석형 PDF 렌더링
-- 프롬프트 기반 해설 생성 흐름 실험
-- API 기반 자동화 구조로 확장 예정
+### [Landing Agent Harness](https://github.com/kangseyoung/landing-agent-harness)
 
-이 프로젝트를 통해 문서 데이터 처리  
-프롬프트 설계  
-LLM을 활용한 학습 보조 도구 구조에 관심을 갖게 되었습니다
+랜딩페이지 제작 과정을 기획, 카피, UI, 구현, QA, 개선 단계로 나눈 워크플로우 하네스입니다.  
+역할별 agent prompt와 산출물 문서를 정리하고, Next.js 데모 앱을 함께 포함했습니다.  
+관리자 인증, 권한 분리, 운영 보안 검토는 아직 완료 기능이 아니라 Future Work로 구분했습니다.
 
----
+**주요 작업**
 
-### Landing Agent Harness
+- 단계별 agent prompt, project brief, QA/report 문서 구조화
+- Next.js / TypeScript 기반 랜딩페이지와 관리자 화면 데모 구성
+- Supabase 스키마와 설정 문서를 리드 수집 흐름 관점에서 정리
 
-외주용 랜딩페이지 제작 과정을 자동화하기 위해 만든 AI-assisted workflow 프로젝트입니다
+### [Capstone Repo Polisher](https://github.com/kangseyoung/capstone-repo-polisher)
 
-단순히 페이지를 만드는 것보다  
-요구사항 정리  
-페이지 생성  
-검토  
-QA  
-데이터 저장 흐름을 나누어 관리하는 구조를 실험했습니다
+캡스톤 렌더팜 프로젝트를 공개 포트폴리오용 저장소로 정리하기 위한 리팩토링/문서화 작업 공간입니다.  
+기존 코드, 비공개 참고자료, 보안 위험 요소를 점검하고 공개 가능한 문서 구조를 설계했습니다.  
+실제 삭제나 민감정보 정리는 별도 승인 후 진행해야 하는 항목으로 구분했습니다.
 
-주요 내용
+**주요 작업**
 
-- Next.js 기반 Web UI 구현
-- Supabase를 활용한 문의 데이터 저장
-- 섹션 기반 랜딩페이지 구조 설계
-- 반복적인 개발 과정을 agent workflow처럼 분리
-- QA 및 개선 과정을 프롬프트 기반으로 정리
+- 저장소 구조, entry point, 중복 패키지, 생성 파일 상태 감사
+- 민감정보와 공개 문서 redaction 기준 정리
+- README, architecture, troubleshooting 등 공개 문서 방향 제안
 
-이 프로젝트를 통해 Web UI  
-데이터 저장  
-개발 자동화 흐름을 함께 다뤄보았습니다
+### [Deadline Renderfarm Automation](https://github.com/kangseyoung/deadline-renderfarm-automation)
 
----
+공유 실습실 환경을 위한 Deadline 기반 렌더팜 자동화 프로젝트입니다.  
+PySide 제출 UI, MongoDB 사용자/예약 데이터, Google Sheets 예약 흐름, NAS 공유 경로, Maya/Arnold와 Blender 제출 흐름을 다룹니다.  
+공개 저장소에는 제출 측 코드와 문서 중심의 안전한 스냅샷을 정리했습니다.
 
-### Capstone Repo Polisher
+**주요 작업**
 
-GitHub 레포지토리를 포트폴리오용으로 정리하기 위한 프롬프트 기반 개발 보조 프로젝트입니다
+- Deadline job/plugin info 생성과 MayaBatch/Blender 제출 흐름 정리
+- MongoDB 기반 로그인/예약 조회와 Google Sheets 데이터 연동 흐름 구성
+- 경로, 라이선스, OCIO, Worker 상태 등 운영 이슈 문서화
 
-프로젝트 설명  
-README 구조  
-기술 스택  
-향후 개선사항 등을 정리하면서  
-AI를 단순 검색 도구가 아니라 개발 문서화와 검토 과정에 활용하는 방법을 실험했습니다
+## 현재 공부 중
 
-주요 내용
+- Maya/Python 툴 구조 개선
+- API 응답 데이터 처리와 저장 구조
+- Deadline 제출 자동화와 운영 문서화
+- LLM API를 활용한 로그 분석, 문서화, 반복 작업 보조
 
-- README 구조 개선
-- 프로젝트 설명 자동 정리
-- 채용 공고 기반 키워드 매칭
-- 프롬프트 기반 개발 보조 workflow 실험
-- AI-assisted developer workflow 학습
+## 정리 방향
 
----
-
-### Deadline Renderfarm Automation
-
-학교 실습실 환경에서 렌더링 작업을 자동화하고 분산 처리하기 위한 Deadline 기반 렌더팜 프로젝트입니다
-
-VFX 파이프라인을 공부하면서  
-여러 사용자의 렌더링 작업을 안정적으로 처리하기 위해  
-NAS 저장소  
-Deadline Worker  
-MongoDB  
-Google Sheets  
-PySide UI를 연결하는 구조를 설계했습니다
-
-주요 내용
-
-- Deadline Repository / Worker 구조 이해
-- NAS 기반 공용 경로 관리
-- PySide 기반 제출 UI 설계
-- MongoDB를 활용한 상태 관리
-- Google Sheets와 렌더 상태 연동
-- Maya / Blender 렌더링 자동화 흐름 구성
-
-이 프로젝트를 통해 시스템 연결  
-운영 자동화  
-로그 분석  
-환경 설정 문제 해결에 흥미를 갖게 되었습니다
-
----
-
-## 현재 공부 중인 것
-
-- LLM API를 활용한 기능 구현
-- 프롬프트 기반 자동화 흐름 설계
-- JSON / CSV 데이터 가공
-- 간단한 Agent workflow 구조
-- 모델 응답 비교와 평가 방법
-- LoRA / fine-tuning 기본 개념
-- Web UI와 AI 기능 연결
-
----
-
-## 방향성
-
-저는 처음부터 AI만 공부한 사람은 아닙니다
-
-VFX 파이프라인과 자동화 도구를 만들면서  
-반복 작업을 줄이고 여러 시스템을 연결하는 개발에 흥미를 느꼈고  
-최근에는 이런 자동화 흐름에 LLM을 결합하면  
-문서 정리  
-데이터 가공  
-사용자 요청 처리  
-개발 보조 기능을 더 효율적으로 만들 수 있다는 점에 관심이 생겼습니다
-
-앞으로는 Python  
-API 연동  
-데이터 처리 경험을 바탕으로  
-LLM 기반 서비스와 AI Agent 구조를 더 깊게 공부하고 싶습니다
+큰 표현보다 실제로 다뤄본 문제를 기준으로 기록합니다. 자동화, 시스템 연결, 데이터 처리, 문서화를 중심으로 작업 흐름을 조금씩 개선해 나가고 있습니다.
