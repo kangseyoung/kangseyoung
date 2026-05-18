@@ -14,7 +14,7 @@ Python 기반 자동화와 API 연동, 데이터 처리 흐름을 중심으로 �
 
 ## Tech Stack
 
-- **Language:** Python, JavaScript / TypeScript, Shell script
+- **Language:** Python, C++, Shell script
 - **App / UI:** Next.js, React, PySide6 / PySide2, Qt Designer
 - **Data / API:** OpenAI API, MongoDB, Google Sheets API, Supabase 클라이언트 패턴, ShotGrid API
 - **Automation:** CLI tools, PDF processing, Markdown workflow, Git / GitHub
