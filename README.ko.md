@@ -1,12 +1,36 @@
+<div align="center">
+
 # kangseyoung
 
-## DevOps 엔지니어를 목표로 공부하고 있습니다
+### DevOps 엔지니어를 목표로 공부하고 있습니다
+
+Linux | 인프라 운영 | 모니터링 | 트러블슈팅 | 자동화
+
+[English README](./README.md)
+
+</div>
+
+---
+
+## 소개
 
 Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를 공부하고 있습니다.
 
 저는 홍익대학교 세종캠퍼스 영상애니메이션 전공으로 입학했고, 이후 컴퓨터공학을 복수전공하고 있습니다. 처음에는 영상/파이프라인 도구를 만들면서 시작했지만, 작업을 하다 보니 도구 자체보다 그 뒤에서 움직이는 서버, NAS, 로그, Worker 상태, 장애 원인 확인 같은 부분에 더 관심이 생겼습니다.
 
 최종 목표는 DevOps 엔지니어입니다. 지금은 그 기반을 쌓기 위해 SRE에 가까운 운영 경험을 먼저 공부하고 있습니다. 로그를 보고, 상태를 확인하고, 인프라 구성 요소를 이해하고, 문제가 생겼을 때 어떻게 확인하고 대응할지 정리하는 쪽에 관심이 있습니다.
+
+## 사용 / 학습 중인 기술
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
 
 ## 지금 집중하는 것
 
@@ -16,7 +40,7 @@ Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를
 - 배포 흐름과 운영 문서화
 - 장기적으로는 반도체 IT / FAB 인프라 운영
 
-## 프로젝트
+## 주요 프로젝트
 
 ### [AWS Thinkbox Deadline Render Farm Infrastructure](https://github.com/kangseyoung/deadline-renderfarm-automation)
 
@@ -88,6 +112,16 @@ AWS Thinkbox Deadline, MongoDB, NAS-based workflow, Maya, Blender, Arnold
 
 **Language**  
 TOEFL iBT 88
+
+## GitHub
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kangseyoung&show_icons=true&hide_border=true&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kangseyoung&layout=compact&hide_border=true&theme=default)
+
+</div>
 
 ## 방향
 
