@@ -18,6 +18,10 @@ My background started in Visual Communication / Animation at Hongik University S
 
 My long-term goal is to become a DevOps engineer. Right now, I am trying to build that foundation through SRE-style operational experience: checking logs, understanding infrastructure components, monitoring system state, and writing down how to respond when something breaks.
 
+## Language
+
+- TOEFL iBT 88
+
 ## Tech I Use / Study
 
 <p>
@@ -107,9 +111,6 @@ Python, PySide6 / PySide2, JavaScript / TypeScript
 
 **Render Farm / Pipeline**  
 AWS Thinkbox Deadline, MongoDB, NAS-based workflow, Maya, Blender, Arnold
-
-**Language**  
-TOEFL iBT 88
 
 ## GitHub
 

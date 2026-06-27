@@ -20,6 +20,10 @@ Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를
 
 최종 목표는 DevOps 엔지니어입니다. 지금은 그 기반을 쌓기 위해 SRE에 가까운 운영 경험을 먼저 공부하고 있습니다. 로그를 보고, 상태를 확인하고, 인프라 구성 요소를 이해하고, 문제가 생겼을 때 어떻게 확인하고 대응할지 정리하는 쪽에 관심이 있습니다.
 
+## 어학
+
+- TOEFL iBT 88
+
 ## 사용 / 학습 중인 기술
 
 <p>
@@ -109,9 +113,6 @@ Python, PySide6 / PySide2, JavaScript / TypeScript
 
 **Render Farm / Pipeline**  
 AWS Thinkbox Deadline, MongoDB, NAS-based workflow, Maya, Blender, Arnold
-
-**Language**  
-TOEFL iBT 88
 
 ## GitHub
 
