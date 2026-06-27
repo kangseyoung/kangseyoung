@@ -53,6 +53,8 @@ Built and operated an on-premise render farm environment using AWS Thinkbox Dead
 - Checked job status, Worker status, failed jobs, error codes, logs, and MongoDB job data.
 - Troubleshot Worker connection issues, NAS path issues, port/firewall settings, and license problems.
 - The tool was used by around 40 students during the graduation project period.
+- The project is now in its first year of continued operation and is being extended with long-term lab usage in mind.
+- Expansion to other university lab environments has been decided.
 - Tested Ansible during the project, but it was not part of the final core setup.
 
 This was not an AWS cloud production deployment. It was an on-premise render farm infrastructure project using AWS Thinkbox Deadline.
