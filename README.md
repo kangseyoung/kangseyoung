@@ -27,8 +27,6 @@ My long-term goal is to become a DevOps engineer. Right now, I am trying to buil
   <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
   <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
   <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
-  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
   <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
 </p>
 
@@ -36,7 +34,6 @@ My long-term goal is to become a DevOps engineer. Right now, I am trying to buil
 
 - Linux operation and shell scripting
 - AWS infrastructure basics: VPC, EC2, ALB, Security Group, IAM, CloudWatch
-- Docker and Nginx basics
 - Monitoring, logs, job/worker status, and troubleshooting
 - Deployment flow and operational documentation
 - Long-term interest in semiconductor IT / FAB infrastructure operations
@@ -52,7 +49,7 @@ Built and operated an on-premise render farm environment using AWS Thinkbox Dead
 - Checked job status, Worker status, failed jobs, error codes, logs, and MongoDB job data.
 - Troubleshot Worker connection issues, NAS path issues, port/firewall settings, and license problems.
 - The tool was used by around 40 students during the graduation project period.
-- Tested Ansible and Docker during the project, but they were not part of the final core setup.
+- Tested Ansible during the project, but it was not part of the final core setup.
 
 This was not an AWS cloud production deployment. It was an on-premise render farm infrastructure project using AWS Thinkbox Deadline.
 
@@ -61,7 +58,7 @@ This was not an AWS cloud production deployment. It was an on-premise render far
 I am currently practicing AWS infrastructure setup while focusing on how each component works and how to check problems.
 
 - VPC, public/private subnets, routing, Security Groups
-- EC2, Docker, Nginx, ALB
+- EC2, ALB
 - IAM basics
 - CloudWatch monitoring and log checking
 - Manual setup practice to understand the role of each component
@@ -97,7 +94,7 @@ I have also worked on AI-assisted tools and web UI experiments, but they are not
 C++, Python, C#, Bash / Shell Script
 
 **Operations / DevOps**  
-Linux, Shell Script, Docker, Nginx, Git, GitHub
+Linux, Shell Script, Git, GitHub
 
 **Infrastructure / Cloud**  
 AWS, VPC, EC2, ALB, Security Group, IAM, CloudWatch

@@ -12,7 +12,6 @@ Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를
 
 - Linux 운영과 Shell Script
 - AWS 인프라 기초: VPC, EC2, ALB, Security Group, IAM, CloudWatch
-- Docker, Nginx 기초
 - 모니터링, 로그 확인, 작업/Worker 상태 확인, 트러블슈팅
 - 배포 흐름과 운영 문서화
 - 장기적으로는 반도체 IT / FAB 인프라 운영
@@ -28,7 +27,7 @@ Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를
 - 작업 상태, Worker 상태, 실패한 작업, 에러 코드, 로그, MongoDB 작업 데이터를 확인했습니다.
 - Worker 연결 문제, NAS 경로 문제, 포트/방화벽 문제, 라이선스 문제를 확인하고 대응했습니다.
 - 졸업작품 기간에 약 40명의 학생들이 실제로 사용했습니다.
-- Ansible과 Docker도 테스트했지만, 최종 핵심 구조에는 포함하지 않았습니다.
+- Ansible도 테스트했지만, 최종 핵심 구조에는 포함하지 않았습니다.
 
 이 프로젝트는 AWS 클라우드에 운영 서비스를 배포한 경험이 아닙니다. AWS Thinkbox Deadline을 사용한 on-premise render farm infrastructure 운영 경험입니다.
 
@@ -37,7 +36,7 @@ Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를
 현재 AWS 인프라를 직접 구성해보면서 각 구성 요소가 어떤 역할을 하는지, 문제가 생겼을 때 어디를 확인해야 하는지 공부하고 있습니다.
 
 - VPC, public/private subnet, routing, Security Group
-- EC2, Docker, Nginx, ALB
+- EC2, ALB
 - IAM 기초
 - CloudWatch 모니터링과 로그 확인
 - 각 구성 요소의 역할을 이해하기 위한 수동 구성 연습
@@ -73,7 +72,7 @@ AI 기반 도구와 Web UI 실험도 해봤지만, 지금 메인 방향은 DevOp
 C++, Python, C#, Bash / Shell Script
 
 **Operations / DevOps**  
-Linux, Shell Script, Docker, Nginx, Git, GitHub
+Linux, Shell Script, Git, GitHub
 
 **Infrastructure / Cloud**  
 AWS, VPC, EC2, ALB, Security Group, IAM, CloudWatch
