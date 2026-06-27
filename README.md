@@ -1,14 +1,36 @@
+<div align="center">
+
 # kangseyoung
+
+### DevOps Engineer in Progress
+
+Linux | Infrastructure Operations | Monitoring | Troubleshooting | Automation
 
 [Korean README](./README.ko.md)
 
-## DevOps Engineer in Progress
+</div>
 
-I am studying DevOps with a focus on Linux, infrastructure operations, monitoring, and troubleshooting.
+---
+
+## About
 
 My background started in Visual Communication / Animation at Hongik University Sejong Campus. Later, I added Computer Science as a double major. While working on pipeline and render farm projects, I became more interested in the systems behind the tools: servers, shared storage, logs, worker status, and failure handling.
 
 My long-term goal is to become a DevOps engineer. Right now, I am trying to build that foundation through SRE-style operational experience: checking logs, understanding infrastructure components, monitoring system state, and writing down how to respond when something breaks.
+
+## Tech I Use / Study
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" />
+  <img src="https://img.shields.io/badge/Shell-4EAA25?style=flat-square&logo=gnubash&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-512BD4?style=flat-square&logo=dotnet&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
+  <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" />
+</p>
 
 ## Current Focus
 
@@ -19,7 +41,7 @@ My long-term goal is to become a DevOps engineer. Right now, I am trying to buil
 - Deployment flow and operational documentation
 - Long-term interest in semiconductor IT / FAB infrastructure operations
 
-## Projects
+## Main Projects
 
 ### [AWS Thinkbox Deadline Render Farm Infrastructure](https://github.com/kangseyoung/deadline-renderfarm-automation)
 
@@ -69,7 +91,7 @@ I have also worked on AI-assisted tools and web UI experiments, but they are not
 - [Landing Agent Harness](https://github.com/kangseyoung/landing-agent-harness): landing page workflow prototype
 - [Capstone Repo Polisher](https://github.com/kangseyoung/capstone-repo-polisher): repository cleanup and documentation workflow
 
-## Tech Stack
+## Stack
 
 **Programming Languages**  
 C++, Python, C#, Bash / Shell Script
@@ -91,6 +113,16 @@ AWS Thinkbox Deadline, MongoDB, NAS-based workflow, Maya, Blender, Arnold
 
 **Language**  
 TOEFL iBT 88
+
+## GitHub
+
+<div align="center">
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=kangseyoung&show_icons=true&hide_border=true&theme=default)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=kangseyoung&layout=compact&hide_border=true&theme=default)
+
+</div>
 
 ## Direction
 
