@@ -69,6 +69,9 @@ AI 기반 도구와 Web UI 실험도 해봤지만, 지금 메인 방향은 DevOp
 
 ## Tech Stack
 
+**Programming Languages**  
+C++, Python, C#, Bash / Shell Script
+
 **Operations / DevOps**  
 Linux, Shell Script, Docker, Nginx, Git, GitHub
 
@@ -83,6 +86,9 @@ Python, PySide6 / PySide2, JavaScript / TypeScript
 
 **Render Farm / Pipeline**  
 AWS Thinkbox Deadline, MongoDB, NAS-based workflow, Maya, Blender, Arnold
+
+**Language**  
+TOEFL iBT 88
 
 ## 방향
 

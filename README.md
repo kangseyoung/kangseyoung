@@ -71,6 +71,9 @@ I have also worked on AI-assisted tools and web UI experiments, but they are not
 
 ## Tech Stack
 
+**Programming Languages**  
+C++, Python, C#, Bash / Shell Script
+
 **Operations / DevOps**  
 Linux, Shell Script, Docker, Nginx, Git, GitHub
 
@@ -85,6 +88,9 @@ Python, PySide6 / PySide2, JavaScript / TypeScript
 
 **Render Farm / Pipeline**  
 AWS Thinkbox Deadline, MongoDB, NAS-based workflow, Maya, Blender, Arnold
+
+**Language**  
+TOEFL iBT 88
 
 ## Direction
 
