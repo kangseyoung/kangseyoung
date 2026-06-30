@@ -20,9 +20,11 @@ Linux, 인프라 운영, 모니터링, 트러블슈팅을 중심으로 DevOps를
 
 최종 목표는 DevOps 엔지니어입니다. 지금은 그 기반을 쌓기 위해 SRE에 가까운 운영 경험을 먼저 공부하고 있습니다. 로그를 보고, 상태를 확인하고, 인프라 구성 요소를 이해하고, 문제가 생겼을 때 어떻게 확인하고 대응할지 정리하는 쪽에 관심이 있습니다.
 
-## 어학
+## 추천 리뷰 순서
 
-- TOEFL iBT 88
+1. [Deadline Render Farm Automation](https://github.com/kangseyoung/deadline-renderfarm-automation)  
+   PySide UI, MongoDB 예약/인증, Deadline 작업 제출, NAS workflow, troubleshooting 문서를 포함한 on-premise render farm automation 프로젝트입니다.  
+   주요 public source snapshot: `src/`
 
 ## 사용 / 학습 중인 기술
 

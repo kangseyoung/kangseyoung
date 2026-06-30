@@ -18,9 +18,11 @@ My background started in Visual Communication / Animation at Hongik University S
 
 My long-term goal is to become a DevOps engineer. Right now, I am trying to build that foundation through SRE-style operational experience: checking logs, understanding infrastructure components, monitoring system state, and writing down how to respond when something breaks.
 
-## Language
+## Recommended Review Order
 
-- TOEFL iBT 88
+1. [Deadline Render Farm Automation](https://github.com/kangseyoung/deadline-renderfarm-automation)  
+   On-premise render farm automation project with PySide UI, MongoDB reservation/auth, Deadline job submission, NAS workflow, and troubleshooting documentation.  
+   Main public source snapshot: `src/`
 
 ## Tech I Use / Study
 
